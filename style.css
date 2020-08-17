@@ -1,0 +1,287 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.web-header {
+  padding: 1.5rem 0;
+  background: cornsilk;
+}
+
+header {
+  display: block;
+}
+
+.web-header .header-logo {
+  margin-right: auto;
+}
+
+.web-header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.container {
+  max-width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #008575;
+  font-weight: 700;
+}
+
+.web-header .header-searchform {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  width: 30rem;
+  position: relative;
+}
+
+.web-header .form-input {
+  flex: 1;
+  border-radius: 0;
+  outline: none;
+}
+input {
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  text-align: start;
+}
+
+nav {
+  display: block;
+}
+
+.web-nav .web-menu {
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+
+.web-nav .menu-item {
+  margin-right: auto;
+  position: relative;
+}
+
+li {
+  display: list-item;
+}
+
+.web-nav .menu-link {
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.web-nav .menu-dropdown {
+  display: none;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 50rem;
+  position: absolute;
+  overflow: hidden;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: seashell;
+}
+
+.web-nav .sub-menu {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.web-nav .category {
+  margin-bottom: 1rem;
+}
+
+dt {
+  display: block;
+}
+
+.web-nav .category-link {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+dd {
+  display: block;
+  margin-inline-start: 40px;
+}
+
+.menu-item:hover > .menu-dropdown {
+  display: flex;
+}
+
+.section-container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+.item-container {
+  overflow: auto;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.item-warpper {
+  float: left;
+  padding: 0 10px;
+}
+
+.homepage-border {
+  border: 1px solid;
+}
+
+h1 {
+  color: green;
+  font-weight: 700px;
+}
+.homepage-title {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+  color: black;
+}
+
+.homepage-description {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+  color: green;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.homepage-border:hover .image {
+  opacity: 0.3;
+}
+
+.product {
+  float: left;
+  padding: 0 40px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+.product .product-img img {
+  transition: all 1s;
+}
+
+.product .product-img:hover img {
+  transform: scale(1.2);
+}
+
+.product .product-name {
+  display: block;
+  height: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+  color: green;
+}
+
+.product .product-price {
+  color: red;
+  font-weight: bold;
+  margin-bottom: -5px;
+  height: 30px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  margin: 1rem 0;
+  background-color: #d7d7d7;
+}
+
+.web-footer {
+  background-color: cornsilk;
+  color: black;
+  display: block;
+}
+
+.web-footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.web-footer .about {
+  width: calc(100% / 3);
+}
+
+.web-footer .copyright {
+  border-top: 1px solid #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.web-blog .blog-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.web-review {
+  text-align: center;
+}
+
+.review-text {
+  font-weight: 300;
+  font-size: 1.5rem;
+  max-width: 750;
+  margin: 1rem auto;
+  line-height: 1.4;
+}
