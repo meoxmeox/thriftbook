@@ -173,6 +173,7 @@ h1 {
   font-weight: bold;
   font-size: larger;
   color: black;
+  padding-left:10px;
 }
 
 .homepage-description {
@@ -180,6 +181,7 @@ h1 {
   font-weight: bold;
   font-size: medium;
   color: green;
+  padding-left:10px;
 }
 
 .image {
