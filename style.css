@@ -151,7 +151,7 @@ dd {
   overflow: auto;
 }
 .item-container {
-  overflow: auto;
+  overflow: hidden;
   margin-left: -10px;
   margin-right: -10px;
 }
